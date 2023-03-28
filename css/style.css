@@ -1,3 +1,6 @@
-.bleu{
-    color: aqua;
+.carousel-item{
+    height: 100vh;
+}
+.bds{
+    background-position: cover;
 }
