@@ -23,6 +23,21 @@
     text-align: center;
 
 }
+
+.barNavigation{
+    display: flex;
+    justify-content: flex-end;
+    z-index: 20;
+}
+.maNav{
+    position: fixed;
+    background-color: #293b4cc7 !important;
+    border-radius: 10px;
+    bottom: 33%;
+    width: 3.5rem;
+    right: 1vh;
+
+}
 .pageAcceuil h2{
     font-size: 5vh;
     text-align: center;
@@ -50,7 +65,7 @@
     color: white;
 }
 .pagePresentation h2{
-    font-size: 15vh;
+    font-size: 10vh;
     font-family: 'Times New Roman', Times, serif;
     color: #997a6b;
 }
@@ -60,5 +75,14 @@
 }
 
 .pagePresentation img{
-    width: 20vw;
+    width: 100vw;
+}
+
+.photoMoi{
+    background-image: url("../img/photoMoi1.jpg");
+    background-position: 10% 40%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #997a6b;
+    height: 60vh;
 }

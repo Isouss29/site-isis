@@ -5,41 +5,74 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
     <link rel="stylesheet" href="css/style.css">
     <title>Site Isis</title>
 </head>
 <body>
-    <div class="pageAcceuil">
-        <div class="barreNav">
-            <nav class="nav">
-                <a class="nav-link active" aria-current="page" href="#">Active</a>
-                <a class="nav-link" href="#">Link</a>
-                <a class="nav-link" href="#">Link</a>
-              </nav>
-        </div>
-        <div class="container-fluid centrage">
-            <div>
-                <h1 class="lh-1">Isis Ruffel</h1>
-                <h2 class="lh-1">PORTFOLIO</h2>
+    <div class="barNavigation">
+        <div class="d-flex flex-column flex-shrink-0 bg-body-tertiary maNav" style="width: 4.5rem;">
+            <a href="#" class="link-body-emphasis d-flex justify-content-center py-3" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-original-title="Icon-only">
+                <i class="bi bi-person-fill"></i>
+            </a>
+            <span class="visually-hidden">Icon-only</span>
+            </a>
+            <ul class="nav nav-pills nav-flush flex-column mb-auto text-center">
+            <li class="nav-item">
+                <a href="#" class="nav-link active py-3 rounded-0" aria-current="page" data-bs-toggle="tooltip" data-bs-placement="right" aria-label="Home" data-bs-original-title="Home">
+                    <i class="bi bi-person-fill"></i>            </a>
+            </li>
+            <li>
+                <a href="#" class="nav-link py-3  rounded-0" data-bs-toggle="tooltip" data-bs-placement="right" aria-label="Dashboard" data-bs-original-title="Dashboard">
+                <svg class="bi pe-none" width="24" height="24" role="img" aria-label="Dashboard"><use xlink:href="#speedometer2"></use></svg>
+                </a>
+            </li>
+            <li>
+                <a href="#" class="nav-link py-3  rounded-0" data-bs-toggle="tooltip" data-bs-placement="right" aria-label="Orders" data-bs-original-title="Orders">
+                <svg class="bi pe-none" width="24" height="24" role="img" aria-label="Orders"><use xlink:href="#table"></use></svg>
+                </a>
+            </li>
+            <li>
+                <a href="#" class="nav-link py-3  rounded-0" data-bs-toggle="tooltip" data-bs-placement="right" aria-label="Products" data-bs-original-title="Products">
+                <svg class="bi pe-none" width="24" height="24" role="img" aria-label="Products"><use xlink:href="#grid"></use></svg>
+                </a>
+            </li>
+            <li>
+                <a href="#" class="nav-link py-3  rounded-0" data-bs-toggle="tooltip" data-bs-placement="right" aria-label="Customers" data-bs-original-title="Customers">
+                <svg class="bi pe-none" width="24" height="24" role="img" aria-label="Customers"><use xlink:href="#people-circle"></use></svg>
+                </a>
+            </li>
+            </ul>
+            <ul class="dropdown-menu text-small shadow">
+                <li><a class="dropdown-item" href="#">New project...</a></li>
+                <li><a class="dropdown-item" href="#">Settings</a></li>
+                <li><a class="dropdown-item" href="#">Profile</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Sign out</a></li>
+            </ul>
             </div>
+    </div>
         </div>
+        <div class="pageAcceuil">
+            <div class="container-fluid centrage">
+                <div>
+                    <h1 class="lh-1">Isis Ruffel</h1>
+                    <h2 class="lh-1">PORTFOLIO</h2>
+                </div>
+            </div>
     </div>
 <div class="pagePresentation">
     <div class="container ">
         <div class="row">
-            <h2>Qui suis-je?</h2>
-            <hr class="borderPres border-2">
-            <div class="col-md-3">
-                <img src="img/image-removebg-preview (19).png" alt="">
+            <div class="col-md-6 photoMoi">
+               
             </div>
-            <div class="col-md-3">
-                <p class="fs-5">Bonjour, je suis Isis, une personne polyvalente qui adore être productive et qui aime être fière de ce qu'elle entreprend. Je suis constamment à la recherche de nouvelles opportunités pour apprendre et me développer professionnellement.</p>
-            </div>
-            <div class="col-md-3">
-                <p class="fs-5">Sur ce site web portfolio, vous pourrez découvrir mes projets et mes réalisations dans différents domaines, ainsi que mes compétences en matière de gestion de projet, d'analyse de données et de communication professionnelle. Et tout cela en travail d'équipe!</p>
-            </div>
-            <div class="col-md-3">
-                <p class="fs-5">Je suis convaincue que ma nature polyvalente et ma passion pour l'apprentissage me permettront de réussir dans n'importe quel environnement professionnel. Merci de votre visite et j'espère que vous apprécierez ce que vous verrez sur mon site.</p>
+            <div class="col-md-6">
+                <h2>Qui suis-je?</h2>
+                <hr class="borderPres border-2">
+                <p class="fs-5">HEY, je suis Isis, une personne polyvalente qui adore être productive et qui aime être fière de ce qu'elle entreprend. Je suis constamment à la recherche de nouvelles opportunités pour apprendre et me développer professionnellement.
+                Sur ce site web portfolio, vous pourrez découvrir mes projets et mes réalisations dans différents domaines, ainsi que mes compétences en matière de gestion de projet, d'analyse de données et de communication professionnelle. Et tout cela en travail d'équipe!
+                Je suis convaincue que ma nature polyvalente et ma passion pour l'apprentissage me permettront de réussir dans n'importe quel environnement professionnel. Merci de votre visite et j'espère que vous apprécierez ce que vous verrez sur mon site.</p>
             </div>
         </div>
     </div>
